@@ -75,12 +75,12 @@ h3 {
 }
 
 .form input {
-    width: 50vw;
+    width: 300px;
     margin: 1vh;
 }
 
 .form textarea {
-    width: 50vw;
+    width: 300px;
     margin-top: 1vh;
 }
 
