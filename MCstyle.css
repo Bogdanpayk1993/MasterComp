@@ -71,9 +71,19 @@ h3 {
 
 .form {
     text-align: center;
-    margin-bottom: 2vh;
+    margin-bottom: 0.5vh;
 }
 
-#name {
+.form input {
     width: 50vw;
+    margin: 1vh;
+}
+
+.form textarea {
+    width: 50vw;
+    margin-top: 1vh;
+}
+
+footer {
+    margin-bottom: 1vh;
 }

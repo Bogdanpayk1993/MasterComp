@@ -37,8 +37,6 @@ function slider_next() {
 }
 
 function print() {
-    let div = document.getElementById("slider")
-
     switch (i) {
         case 1:
             img.src = `${jmg1}`
@@ -53,16 +51,15 @@ function print() {
 }
 
 function slider() {
-
     let div = document.getElementById("slider")
-    div.style.height = "30.8vw"
-
+    div.style.height = "30.9vw"
+    
     img = document.createElement("img")
     img.src = `${jmg1}`
     img.style.width = "100%"
     img.style.position = "absolute"
-    img.style.zIndex = "1"
-    document.getElementById("slider").appendChild(img)
+    img.style.zIndex = "0"
+    div.appendChild(img)
 
     let prev = document.createElement("img")
     prev.src = "./image/prev.png"
@@ -70,10 +67,10 @@ function slider() {
     prev.style.float = "left"
     prev.style.marginLeft = "3%"
     prev.style.position = "relative"
-    prev.style.zIndex = "2" 
+    prev.style.zIndex = "1" 
     prev.style.marginTop = "12.9vw"
     prev.onclick = slider_prev
-    document.getElementById("slider").appendChild(prev)
+    div.appendChild(prev)
 
     let next = document.createElement("img")
     next.src = "./image/next.png"
@@ -81,10 +78,9 @@ function slider() {
     next.style.float = "right"
     next.style.marginRight = "3%"
     next.style.position = "relative"
-    next.style.zIndex = "2"
+    next.style.zIndex = "1"
     next.style.marginTop = "12.9vw"
     next.onclick = slider_next
-    document.getElementById("slider").appendChild(next)
-
+    div.appendChild(next)
 }
 
