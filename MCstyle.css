@@ -75,13 +75,22 @@ h3 {
 }
 
 .form input {
-    width: 300px;
-    margin: 1vh;
+    max-width: 400px;
+    width: 80vw;
+    margin: 0.2vh;
 }
 
 .form textarea {
-    width: 300px;
-    margin-top: 1vh;
+    max-width: 400px;
+    width: 80vw;
+    margin: 0.2vh;
+} 
+
+#button {
+    border: 2px solid white;
+    width: 10vw;
+    font-size: 1.5vw;
+    margin: auto;
 }
 
 footer {
