@@ -53,7 +53,7 @@ function print() {
 function slider() {
     let div = document.getElementById("slider")
     div.style.height = "30.9vw"
-    
+
     img = document.createElement("img")
     img.src = `${jmg1}`
     img.style.width = "100%"
@@ -67,7 +67,7 @@ function slider() {
     prev.style.float = "left"
     prev.style.marginLeft = "3%"
     prev.style.position = "relative"
-    prev.style.zIndex = "1" 
+    prev.style.zIndex = "1"
     prev.style.marginTop = "12.9vw"
     prev.onclick = slider_prev
     div.appendChild(prev)
@@ -83,4 +83,3 @@ function slider() {
     next.onclick = slider_next
     div.appendChild(next)
 }
-
