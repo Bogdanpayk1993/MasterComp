@@ -1,8 +1,8 @@
 let i = 1
 let img
-let jmg1 = "./image/background1.jpg"
-let jmg2 = "./image/background2.jpg"
-let jmg3 = "./image/background3.jpg"
+let jmg1 = "./image/phone1.jpg"
+let jmg2 = "./image/phone2.jpg"
+let jmg3 = "./image/phone3.jpg"
 
 window.onload = function () {
     slider()

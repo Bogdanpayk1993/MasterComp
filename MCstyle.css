@@ -1,5 +1,5 @@
 body {
-    background-image: url(image/background.jpg);
+    background-image: url(image/background0.jpg);
     background-size: 100%;
     margin: 0px;
 }
@@ -20,7 +20,7 @@ header td:nth-child(2) {
 
 .header {
     text-align: center;
-    color: red;
+    color: black;
     font-size: 10vw;
     font-style: italic;
     font-weight: 900;
@@ -32,18 +32,23 @@ header td:nth-child(2) {
 }
 
 div {
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 1.3vw;
 }
 
 .services {
-    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 2vw;
     font-weight: bold;
-    font-size: 2vw;
-    float: left;
+    font-size: 1.7vw;
     text-align: center;
-    width: 25%;
+    color: black;
+    float: left;
+    width: 23vw;
+    height: 11vw;
+    margin: 0.5vw;
+    
 }
 
 .img1 {
@@ -62,11 +67,18 @@ div {
 h2 {
     text-align: center;
     font-size: 2vw;
-    color: white;
+    color: black;
 }
 
 h3 {
-    margin: 10px;
+    margin: 1vw;
+    opacity: 1;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    height: 2px;
 }
 
 form {
@@ -87,8 +99,10 @@ form textarea {
 } 
 
 #sendemail {
-    border: 2px solid white;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+    border-radius: 1vw;
+    color: black;
     width: 10vw;
     font-size: 1.5vw;
     margin: auto;
