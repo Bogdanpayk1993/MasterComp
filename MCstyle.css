@@ -35,6 +35,21 @@ header td:nth-child(2) {
     height: 12vw;
 }
 
+header select {
+    border: 0px;
+    font-weight: bold;
+    font-size: 1vw;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+header option {
+    font-weight: bold;
+    font-size: 1vw;
+    font-style: italic;
+    background-color: #c1d5e0;
+}
+
 div {
     color: black;
     font-weight: bold;
@@ -85,18 +100,18 @@ hr {
     height: 2px;
 }
 
-.form {
+footer form {
     text-align: center;
     margin-bottom: 0.5vh;
 }
 
-.form input {
+footer form input {
     max-width: 400px;
     width: 80vw;
     margin: 0.2vh;
 }
 
-.form textarea {
+footer form textarea {
     max-width: 400px;
     width: 80vw;
     margin: 0.2vh;
