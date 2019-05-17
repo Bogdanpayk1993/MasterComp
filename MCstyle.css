@@ -40,7 +40,7 @@ header select {
     font-weight: bold;
     font-size: 1vw;
     font-style: italic;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 header option {
